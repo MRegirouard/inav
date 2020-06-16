@@ -20,12 +20,11 @@
 
 #include <stdint.h>
 
-#include "platform.h"
+#include <platform.h>
 #include "drivers/io.h"
-
-#include "drivers/dma.h"
+#include "drivers/pwm_mapping.h"
 #include "drivers/timer.h"
-#include "drivers/timer_def.h"
+#include "drivers/bus.h"
 
 const timerHardware_t timerHardware[] = {
   // DEF_TIM(TIM11, CH1,  PB9, TIM_USE_CAMERA_CONTROL,      0, 0), // There is not camera control in INAV
