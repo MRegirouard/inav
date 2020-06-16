@@ -63,7 +63,7 @@
 #define UART4_RX_PIN            PA1
 #define UART4_TX_PIN            PA0
 
-#define USE_SOFTSERIAL1
+// #define USE_SOFTSERIAL1
 // #define SOFTSERIAL_1_RX_PIN     PC8
 // #define SOFTSERIAL_1_TX_PIN     PC9
 
@@ -95,7 +95,7 @@
 #define SENSORS_SET (SENSOR_ACC)
 
 #define USE_LED_STRIP
-#define WS2811_PIN                      PB09
+#define WS2811_PIN                      PB8
 
 #define DEFAULT_FEATURES        (FEATURE_BLACKBOX | FEATURE_VBAT)
 
